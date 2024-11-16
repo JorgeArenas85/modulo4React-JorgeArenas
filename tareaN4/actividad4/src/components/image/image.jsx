@@ -1,0 +1,8 @@
+import React from 'react';
+
+function Image({ url, alt }) {
+  return <img src={url} alt={alt} style={{ width: '100px', borderRadius: '50%' }} />;
+}
+
+export default Image;
+
